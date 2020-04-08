@@ -2,25 +2,25 @@ div {
   width: 100px;
   height: 100px;
   border: 1px solid red;
-  border-radius: 100%;
-  background-image: url(../../000-IMG/pup.jpg);
-  background-size: cover;
+  display: inline-block;
 }
 
 img {
   border: 10px groove orange;
+  border-radius: 100%;
   padding: 10px;
   margin: 40px;
 }
 
 .dogtwo {
-  border: 10px dotted salmon
+  border: 10px dotted salmon;
+  padding: 10px;
 }
 
 .dogthree {
-  border: 10px dashed pink
+  border: 10px dashed pink;
 }
 
 .dogfour {
-  border: 10px double lime
+  border: 10px double lime;
 }
