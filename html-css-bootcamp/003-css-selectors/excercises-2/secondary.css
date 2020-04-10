@@ -1,0 +1,19 @@
+/* excercise 6 */
+/* div p {
+  color: red
+} */
+
+/* exercise 7 */
+/* div > p {
+  color: red
+} */
+
+/* exercise 8 */
+/* div ~ p {
+  color: red
+} */
+
+/* exercise 8 */
+div + p {
+  color: red
+}

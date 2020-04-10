@@ -1,0 +1,38 @@
+#item003 {
+  color: red;
+}
+
+.item3, .item4, .item5 {
+  color: red;
+}
+
+[target="_blank"] {
+  border: 3px solid lime;
+}
+
+a:link {
+  color: chartreuse;
+}
+
+a:visited {
+  color: limegreen;
+}
+
+a:hover {
+  color: lime;
+}
+
+a:active {
+  color: palegreen;
+}
+
+p::first-letter {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: fantasy;
+}
+
+p::first-line {
+  font-weight: bold;
+  font-family: cursive;
+}
