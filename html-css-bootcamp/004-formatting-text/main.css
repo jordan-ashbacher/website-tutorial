@@ -1,0 +1,33 @@
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+h2 {
+  font-family: serif;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: .2rem;
+}
+
+#title {
+  text-shadow: 1px 1px 3px grey;
+  font-size: 1.25rem;
+  text-decoration: line-through;
+}
+
+a:link {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  text-indent: 1rem;
+}
