@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 98%;
+  margin: 0 auto;
+}
+
+nav {
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
+  border: 1px dotted hotpink;
+}
+
+li {
+  list-style: none;
+  margin: .5rem
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  display: inline-block;
+  width: 80%;
+  padding: 5px 20px;
+  border: 1px dotted hotpink;
+}
+
+h1 {
+  font-variant: small-caps;
+}

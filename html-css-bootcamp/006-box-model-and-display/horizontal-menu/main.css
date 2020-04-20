@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.menuitem {
+  display: inline-block;
+  margin: 1rem 2rem;
+  padding: .25rem;
+}
