@@ -6,8 +6,46 @@ div {
   margin: .5rem;
 }
 
-body {
+/* body {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;
+} */
+
+/* body {
+  display: flex;
+  flex-flow: row wrap-reverse;
+  justify-content: flex-start;
+} */
+
+/* body {
+  display: flex;
+  height: 1200px;
+  flex-flow: column wrap;
+  justify-content: space-around;
+} */
+
+/* body {
+  display: flex;
+  height: 1200px;
+  flex-flow: column wrap;
+  justify-content: space-between;
+} */
+
+body {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+div:nth-child(even) {
+  flex-grow: 4;
+  flex-shrink: 4;
+  background-color: pink;
+}
+
+div:nth-child(odd) {
+  flex-grow: 0;
+  flex-shrink: 0;
+  background-color: yellow;
 }
