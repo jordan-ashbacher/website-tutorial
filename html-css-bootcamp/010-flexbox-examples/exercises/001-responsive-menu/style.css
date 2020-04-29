@@ -1,0 +1,22 @@
+ul {
+  list-style: none;
+  background-color: steelblue;
+}
+
+a {
+  text-decoration: none;
+  padding: 1em;
+  color: whitesmoke;
+  border-top: 1px solid #F0F8FF1A;
+  border-bottom: 1px solid #DCDCDC4D;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+a:hover {
+  background-color: lightsteelblue;
+}
+
+li:last-child {
+  border-bottom: none;
+}

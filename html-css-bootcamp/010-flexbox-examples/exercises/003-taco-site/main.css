@@ -1,0 +1,40 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, button, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strong, sub, sup, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, figure, figcaption, footer, header, nav, output, section, time, mark, audio, video, input, textarea, select {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+  margin: 20px 40px;
+}
+
+nav {
+  border: 1px solid red;
+  padding: .5em;
+}
+
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  list-style: none;
+  justify-content: center;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin: .25em .5em;
+}
+
+.content {
+  width: 100%;
+  border: 1px solid red;
+  padding: .75em;
+}
+
+p {
+  margin: .5em;
+}
