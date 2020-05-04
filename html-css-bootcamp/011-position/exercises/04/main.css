@@ -1,0 +1,33 @@
+body, div, p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  width: 800px;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+
+.box1 {
+  position: absolute;
+  width: 150px;
+  height: 450px;
+  top: 5px;
+  left: 5px;
+  border-right: 1px dotted black;
+}
+
+.text1 {
+  margin-right: 5px;
+}
+
+.box2 {
+  margin: 5px 5px 5px 160px;
+  /* margin-top: 5px;
+  margin-left: 160px;
+  margin-right: 5px; */
+  height: 450px;
+}
