@@ -1,0 +1,18 @@
+body, div, img, p {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10px;
+  border: 9px solid red;
+}
+
+img {
+  float: left;
+}
+
+/* div {
+  overflow: auto;
+} */

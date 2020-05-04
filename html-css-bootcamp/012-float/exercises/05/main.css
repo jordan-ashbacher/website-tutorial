@@ -1,0 +1,22 @@
+body, div, img, p, nav {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+nav {
+  float: left;
+  width: 20%;
+  border: 2px solid red;
+}
+
+div {
+  float: right;
+  width: 80%;
+  border: 2px solid red;
+}
