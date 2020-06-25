@@ -1,0 +1,32 @@
+.atf {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4vw;
+}
+
+.tabMenu {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  /* height: 10vw; */
+  width: 80vw;
+  /* border: 1px solid pink; */
+  border-bottom: 1px solid black;
+}
+
+.tabItem {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  height: 10vw;
+  text-transform: lowercase;
+  cursor: pointer;
+
+}
+
+.tabItem:hover {
+  border-bottom: 5px solid teal;
+}

@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  color: #8b9194;
+}
+
+.idx-svg {
+  fill: #d3e1e6;
+  height: 7rem;
+  width: 7rem;
+  margin: 1rem;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 100;
+  margin: 1rem;
+}
+
+button {
+  height: 3rem;
+  width: 8rem;
+  margin: 1rem;
+  background: #40a9e6;
+  color: white;
+  border-radius: 5px;
+}
